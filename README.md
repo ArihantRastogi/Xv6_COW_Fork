@@ -1,5 +1,7 @@
 # xv6
-Xv6 is a teaching operating system developed in the summer of 2006 for MIT's operating systems course. Below, I have implemented a few system calls and tested scheduling policies in the give Xv6 source code. The user needs to install the Xv6 and can follow the below provided guide for the same. https://pdos.csail.mit.edu/6.S081/2024/tools.html
+- Xv6 is a teaching operating system developed in the summer of 2006 for MIT's operating systems course. Below, I have implemented a few system calls and tested scheduling policies in the give Xv6 source code. The user needs to install the Xv6 and can follow the below provided guide for the same. https://pdos.csail.mit.edu/6.S081/2024/tools.html
+- It was a group assignment and shared here is my team partner for the same.
+[Prasoon Dev](https://github.com/prasoondev)
 ## Copy-On-Write FORK
 - Implemented COW Fork with the following requirements
     - When the parent process forks, instead of making a full copy of all the memory pages, we’ll have both processes share the same pages initially.
